@@ -7,6 +7,9 @@ body {
 .navbar {
     background-color: #181413;
 }
+.navbar-brand, .nav-link {
+    color: #f0ebdd !important;
+}
 /* Hero section */
 .dark-bg {
     background-image: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url("/images/extraction.jpg");
@@ -21,7 +24,7 @@ body {
 
 
 .hero-container {
-    color:  #FAF9F6 !important;
+    color:  #f0ebdd !important;
 }
 h1 {
     font-size: 4rem;
