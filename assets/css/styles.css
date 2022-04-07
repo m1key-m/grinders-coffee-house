@@ -18,7 +18,7 @@ body {
     background-attachment: fixed;
 }
 
-#hero .container {
+.hero .container {
     height: 100vh;
 }
 
@@ -31,4 +31,22 @@ h1 {
     font-weight: 700;
 }
 
-/* Hero section */
+/* End of Hero section styles */
+
+/* About section styles */
+
+#about {
+    background-color: #f0ebdd;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+h2 + p {
+    text-align: center;
+    font-size: 1.5em;
+}
