@@ -55,6 +55,12 @@ h2 + p {
 .about-text {
     padding-bottom: 48px;
 }
+.carousel { 
+    width:640px; 
+    height:460px;
+    overflow: hidden;
+    margin: 0 auto;
+}
 /* end of about section styles */
 /* location section styles  */
 .location-img {
@@ -81,11 +87,32 @@ h3 {
     margin-bottom: 10px;
 }
 /* menu styles */
-.carousel { 
-    width:640px; 
-    height:360px;
-    overflow: hidden;
-    margin: 0 auto;
-    
+#menu {
+    background-color: #f0ebdd;
 }
+.menu {
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .coffee {
+    text-align: left;
+    width: 40%;
+  }
+  
+  .price {
+    text-align: right;
+  }
+
+  
   
