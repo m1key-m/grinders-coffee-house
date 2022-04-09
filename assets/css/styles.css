@@ -63,15 +63,19 @@ h2 + p {
 }
 /* end of about section styles */
 /* location section styles  */
+#location {
+    background-color: #f0ebdd;    
+}
 .location-img {
-    width: 250px;
-    height: 250px;
+    width: 12.5rem;
+    height: 12.5rem;
     border-radius: 50%;
     margin-bottom: 25px;
     object-fit: cover;
 }
 .location {
     text-align: center;
+    
     /* NEED TO GIVE A GAP BETWEEN EACH CARD BEFORE APPLYING SHADOW */
     /* box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07); */
 }
@@ -87,11 +91,10 @@ h3 {
     margin-bottom: 10px;
 }
 /* menu styles */
-#menu {
-    background-color: #f0ebdd;
-}
+
+
 .menu {
-    background-color: burlywood;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -114,5 +117,9 @@ h3 {
     text-align: right;
   }
 
-  
-  
+  /* Media queries  */
+  @media (max-width:800px) {
+    #carouselExampleControls{
+        display:none;
+    }
+}
