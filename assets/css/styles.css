@@ -13,7 +13,7 @@ body {
 }
 /* Hero section */
 .dark-bg {
-    background-image: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url("/assets/images/extraction.png");
+    background-image: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url("../images/extraction.png");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
