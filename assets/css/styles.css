@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Robotor:wght@500&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
@@ -55,8 +55,8 @@ h2 + p {
 .about-text {
     padding-bottom: 48px;
 }
-
-
+/* end of about section styles */
+/* location section styles  */
 .location-img {
     width: 250px;
     height: 250px;
@@ -64,10 +64,28 @@ h2 + p {
     margin-bottom: 25px;
     object-fit: cover;
 }
-/* need to check if this is best way to align text & images */
 .location {
     text-align: center;
+    /* NEED TO GIVE A GAP BETWEEN EACH CARD BEFORE APPLYING SHADOW */
+    /* box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07); */
 }
 .location > p:not(:last-child) {
     margin-bottom: 0.4rem;
 }
+.location > p {
+    font-size: 1.2rem;
+    color:#221c1b;
+}
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+/* menu styles */
+.carousel { 
+    width:640px; 
+    height:360px;
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+  
