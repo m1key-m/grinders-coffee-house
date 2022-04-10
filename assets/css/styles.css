@@ -2,18 +2,21 @@
 
 body {
     font-family: Roboto, sans-serif;
-    
+
 }
 
 .navbar {
     background-color: #221c1b;
 }
-.navbar-brand, .nav-link {
+
+.navbar-brand,
+.nav-link {
     color: #f0ebdd !important;
 }
+
 /* Hero section */
 .dark-bg {
-    background-image: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url("../images/extraction.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/extraction.png");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -25,8 +28,9 @@ body {
 
 
 .hero-container {
-    color:  #f0ebdd !important;
+    color: #f0ebdd !important;
 }
+
 h1 {
     font-size: 4rem;
     font-weight: 700;
@@ -39,33 +43,38 @@ h1 {
 #about {
     background-color: #f0ebdd;
 }
+
 h2 {
     color: #221c1b;
     text-align: center;
     text-decoration: underline;
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
-h2 + p {
+h2+p {
     text-align: center;
     font-size: 1.5em;
 }
+
 .about-text {
     padding-bottom: 48px;
 }
-.carousel { 
-    width:640px; 
-    height:460px;
+
+.carousel {
+    width: 640px;
+    height: 460px;
     overflow: hidden;
     margin: 0 auto;
 }
+
 /* end of about section styles */
 /* location section styles  */
 #location {
-    background-color: #f0ebdd;    
+    background-color: #f0ebdd;
 }
+
 .location-img {
     width: 12.5rem;
     height: 12.5rem;
@@ -73,60 +82,92 @@ h2 + p {
     margin-bottom: 25px;
     object-fit: cover;
 }
+
 .location {
     text-align: center;
-    
+
     /* NEED TO GIVE A GAP BETWEEN EACH CARD BEFORE APPLYING SHADOW */
     /* box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07); */
 }
-.location > p:not(:last-child) {
+
+.location>p:not(:last-child) {
     margin-bottom: 0.4rem;
 }
-.location > p {
+
+.location>p {
     font-size: 1.2rem;
-    color:#221c1b;
+    color: #221c1b;
 }
+
 h3 {
     font-size: 1.6rem;
     margin-bottom: 10px;
 }
+
 /* menu styles */
-
-
-.menu {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    /* border: 5px solid #221c1b; */
-  }
-  .menu-table {
+.menu-list {
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.15);
     border: 2px solid #221c1b;
-  }
-  .menu-table > h4 {
-      text-decoration: underline;
-      font-weight: 600;
-  }
-  .item p {
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
-  }
-  
-  .coffee {
-    text-align: left;
-    width: 40%;
-  }
-  
-  .price {
-    text-align: right;
-  }
- 
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 0 10px;
+    width: 300px;
+    margin-top: 20px;
+}
 
-  /* Media queries  */
-  @media (max-width:800px) {
-    #carouselExampleControls{
-        display:none;
+.coffee {
+    margin-left: 250px;
+}
+
+.cake {
+    margin-right: 250px;
+}
+
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h3 {
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+#menu > p {
+    text-align: center;
+    font-style: italic;
+}
+.fas {
+    color: green;
+}
+
+/* Media queries  */
+@media (max-width:800px) {
+    #carouselExampleControls {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .coffee {
+        margin-left: 150px;
+    }
+    
+    .cake {
+        margin-right: 150px;
+    }
+    
+
+}
+@media only screen and (max-width: 990px) {
+
+    .coffee,
+    .cake {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
