@@ -62,7 +62,7 @@ h2+p {
     padding-bottom: 48px;
 }
 
-.carousel {
+.carousel-gallery {
     width: 640px;
     height: 460px;
     overflow: hidden;
@@ -144,6 +144,23 @@ h3 {
 .fas {
     color: green;
 }
+/* reviews */
+.user-review{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.review{
+    padding-right: 0;
+}
+
+.review:nth-child(1) {
+    margin-bottom: 10px;
+
+}
+.review:nth-child(2) {
+    margin-bottom: 10px;
+}
 
 /* Media queries  */
 @media (max-width:800px) {
@@ -163,11 +180,11 @@ h3 {
     
 
 }
-@media only screen and (max-width: 990px) {
 
-    .coffee,
-    .cake {
-        margin-left: auto;
-        margin-right: auto;
+@media only screen and (max-width: 990px) {
+    .review:not(:last-child) {
+        margin-bottom: 10px;
+
     }
+
 }
