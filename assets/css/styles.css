@@ -144,14 +144,18 @@ h3 {
 .fas {
     color: green;
 }
+
+
+
 /* reviews */
 .user-review{
     border: 2px solid black;
     border-radius: 20px;
     padding: 20px;
 }
-.review{
-    padding-right: 0;
+
+.review {
+    padding: 0 20px;
 }
 
 .review:nth-child(1) {
@@ -159,7 +163,7 @@ h3 {
 
 }
 .review:nth-child(2) {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 /* Media queries  */
@@ -169,7 +173,7 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1020px) {
     .coffee {
         margin-left: 150px;
     }
@@ -177,14 +181,17 @@ h3 {
     .cake {
         margin-right: 150px;
     }
-    
 
 }
 
 @media only screen and (max-width: 990px) {
     .review:not(:last-child) {
         margin-bottom: 10px;
-
     }
-
+    .review:nth-child(odd){
+        display:none;
+    }
 }
+
+
+
