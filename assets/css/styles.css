@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Robotor:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fredericka+the+Great:wght@400;700&family=Robotor:wght@500&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
@@ -68,7 +68,7 @@ h2+p {
     margin: 0 auto;
     padding-bottom: 3rem;
 }
-.carousel-item {
+.carousel-inner {
     border-radius: 25px;
 }
 /* end of about section styles */
@@ -108,7 +108,7 @@ h3 {
 
 /* menu styles */
 .menu-list {
-    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.15);
+    background-color: #221c1b;
     border: 2px solid #221c1b;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -119,6 +119,8 @@ h3 {
     margin-top: 20px;
 }
 .menu-list h3 {
+    font-family: 'Fredericka the Great';
+    color: white;
     text-align: left;
     padding: 0 0 1rem 0;
 }
@@ -127,15 +129,19 @@ h3 {
 }
 
 .cake {
-    margin-right: px;
+    margin-right: 200px;
 }
 
 
 .item {
+    font-family: 'Fredericka the Great';
+    color: white;
     display: flex;
     justify-content: space-between;
 }
-
+.item > p {
+    font-size: 1.5rem;
+}
 
 h3 {
     padding: 10px;
@@ -215,8 +221,37 @@ input[type=text] {
  color: #221c1b;
  padding: 4px 8px;
 }
+/* END OF FORM STYLES */
+/* CONTACT STYLES */
 
+.contact-info {
+    width: 50%;
+    margin: 0 auto;
+}
+.info {
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+.email-address:link,
+.email-address:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.email-address:hover,
+.email-address:active {
+    text-decoration: underline;
+}
+.social-media {
+    /* text-align: center; */
+    margin-bottom: 24px;
+    padding-left: 3rem;
+}
+.social-media a > i {
 
+    font-size: 40px;
+    color: #221c1b;
+    padding: 5px;
+}
 /* Media queries  */
 @media (max-width:800px) {
     #carouselExampleControls {
