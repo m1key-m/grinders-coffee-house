@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Robotor:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fredericka+the+Great:wght@400;700&family=Robotor:wght@500&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
@@ -64,11 +64,13 @@ h2+p {
 
 .carousel-gallery {
     width: 640px;
-    height: 460px;
     overflow: hidden;
     margin: 0 auto;
+    padding-bottom: 3rem;
 }
-
+.carousel-inner {
+    border-radius: 25px;
+}
 /* end of about section styles */
 /* location section styles  */
 #location {
@@ -106,31 +108,38 @@ h3 {
 
 /* menu styles */
 .menu-list {
-    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.15);
-    border: 2px solid #221c1b;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    padding: 0 10px;
-    width: 300px;
+    background-color: #000;
+    border: 20px solid #553311;
+    border-radius: 1.5rem;
+    padding: 2rem !important;
+    width: 400px;
     margin-top: 20px;
 }
-
+.menu-list h3 {
+    font-family: 'Fredericka the Great';
+    color: white;
+    text-align: left;
+    padding: 0 0 1rem 0;
+}
 .coffee {
-    margin-left: 250px;
+    margin-left: 200px;
 }
 
 .cake {
-    margin-right: 250px;
+    margin-right: 200px;
 }
 
 
 .item {
+    font-family: 'Fredericka the Great';
+    color: white;
     display: flex;
     justify-content: space-between;
 }
-
+.item > p {
+    font-size: 1.35rem;
+    letter-spacing: 0.1rem;
+}
 
 h3 {
     padding: 10px;
@@ -140,6 +149,9 @@ h3 {
 #menu > p {
     text-align: center;
     font-style: italic;
+}
+.vegan {
+    padding-bottom: 48px;
 }
 .fas {
     color: green;
@@ -152,17 +164,95 @@ h3 {
 }
 
 .review {
-    padding: 0 20px;
+    padding: 10px;
 }
 
 .review:nth-child(1) {
-    margin-bottom: 10px;
-
+    margin-bottom: 10px
 }
 .review:nth-child(2) {
     margin-bottom: 40px;
 }
+.review:nth-child(3) {
+    padding-bottom: 48px;
+}
+.review:nth-child(4) {
+    padding-bottom: 48px;
+}
+/* FORM STYLES */
+.form-input {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border: 2px solid #221c1b;
+    background-color: #221c1b;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 48px;
+}
+.loyalty-subheading {
+    text-align: center;
+}
+.form-input > p {
+    margin-bottom: 8px; 
+}
+.form-input > h3 {
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 0;
+}
+.form-location {
+    text-align: left;
+}
+label {
+    padding-left: 2px;
+    margin-bottom: 5px;
+}
+input {
+    background-color: #f0ebdd !important;
+}
+input[type=text] {
+    margin-bottom: 15px;
+}
+.button {
+   text-align: center;
+}
+.btn {
+ background-color: #f0ebdd;
+ color: #221c1b;
+ padding: 4px 8px;
+}
+/* END OF FORM STYLES */
+/* CONTACT STYLES */
 
+.contact-info {
+    width: 50%;
+    margin: 0 auto;
+}
+.info {
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+.email-address:link,
+.email-address:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.email-address:hover,
+.email-address:active {
+    text-decoration: underline;
+}
+.social-media {
+    /* text-align: center; */
+    margin-bottom: 24px;
+    padding-left: 3rem;
+}
+.social-media a > i {
+
+    font-size: 40px;
+    color: #221c1b;
+    padding: 5px;
+}
 /* Media queries  */
 @media (max-width:800px) {
     #carouselExampleControls {
