@@ -269,6 +269,34 @@ input[type=text] {
     padding: 5px;
 }
 
+.contact-info {
+    width: 50%;
+    margin: 0 auto;
+}
+.info {
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+.email-address:link,
+.email-address:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.email-address:hover,
+.email-address:active {
+    text-decoration: underline;
+}
+.social-media {
+    /* text-align: center; */
+    margin-bottom: 24px;
+    padding-left: 3rem;
+}
+.social-media a > i {
+
+    font-size: 40px;
+    color: #221c1b;
+    padding: 5px;
+}
 /* Media queries  */
 
 
