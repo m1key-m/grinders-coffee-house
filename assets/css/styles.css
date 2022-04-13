@@ -14,6 +14,10 @@ body {
     color: #f0ebdd !important;
 }
 
+.navbar-brand:hover,
+.nav-link:hover {
+    text-decoration: underline;
+}
 /* Hero section */
 .dark-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/extraction.png");
@@ -35,7 +39,10 @@ h1 {
     font-size: 4rem;
     font-weight: 700;
 }
-
+.hero-quote {
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
 /* End of Hero section styles */
 
 /* About section styles */
@@ -53,19 +60,19 @@ h2 {
     margin-bottom: 30px;
 }
 
-h2+p {
+h2~p {
     text-align: center;
     font-size: 1.5em;
 }
-
 .about-text {
-    padding-bottom: 48px;
+    font-size: 1.2rem;
 }
 
 .carousel-gallery {
     width: 640px;
     overflow: hidden;
     margin: 0 auto;
+    padding-top: 1rem;
     padding-bottom: 3rem;
 }
 .carousel-inner {
@@ -87,9 +94,6 @@ h2+p {
 
 .location {
     text-align: center;
-
-    /* NEED TO GIVE A GAP BETWEEN EACH CARD BEFORE APPLYING SHADOW */
-    /* box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07); */
 }
 
 .location>p:not(:last-child) {
@@ -98,6 +102,11 @@ h2+p {
 
 .location>p {
     font-size: 1.2rem;
+    color: #221c1b;
+}
+
+.location-link:link,
+.location-link:visited {
     color: #221c1b;
 }
 
@@ -153,9 +162,7 @@ h3 {
 .vegan {
     padding-bottom: 48px;
 }
-.fas {
-    color: green;
-}
+
 /* reviews */
 .user-review{
     border: 2px solid black;
@@ -166,7 +173,10 @@ h3 {
 .review {
     padding: 10px;
 }
-
+.fas,
+.far {
+    color: green;
+}
 .review:nth-child(1) {
     margin-bottom: 10px
 }
@@ -226,13 +236,18 @@ input[type=text] {
 /* CONTACT STYLES */
 
 .contact-info {
-    width: 50%;
+    /* width: 50%; */
     margin: 0 auto;
+}
+.contact-info>h3 {
+    text-align: left;
+    padding-left: 3rem;
 }
 .info {
     padding-top: 1rem;
     padding-left: 3rem;
 }
+
 .email-address:link,
 .email-address:visited {
     text-decoration: none;
@@ -249,16 +264,13 @@ input[type=text] {
 }
 .social-media a > i {
 
-    font-size: 40px;
+    font-size: 2rem;
     color: #221c1b;
     padding: 5px;
 }
+
 /* Media queries  */
-@media (max-width:800px) {
-    #carouselExampleControls {
-        display: none;
-    }
-}
+
 
 @media only screen and (max-width: 1200px) {
     .coffee {
@@ -267,6 +279,9 @@ input[type=text] {
     
     .cake {
         margin-right: 150px;
+    }
+    .form-input{
+        padding: 10px 20px;
     }
 
 }
@@ -277,9 +292,6 @@ input[type=text] {
         margin-left: auto;
         margin-right: auto;
     }
-}
-
-@media only screen and (max-width: 990px) {
     .review:not(:last-child) {
         margin-bottom: 10px;
     }
@@ -290,3 +302,8 @@ input[type=text] {
 
 
 
+@media (max-width:800px) {
+    #carouselExampleControls {
+        display: none;
+    }
+}
