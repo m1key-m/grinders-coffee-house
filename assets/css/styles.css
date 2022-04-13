@@ -8,6 +8,9 @@ body {
 .navbar {
     background-color: #221c1b;
 }
+.navbar-toggler {
+    border: none;
+}
 
 .navbar-brand,
 .nav-link {
@@ -53,8 +56,10 @@ h1 {
 
 h2 {
     color: #221c1b;
+    font-family: 'Fredericka the Great';
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline;
+    text-decoration-thickness: 40px; */
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 30px;
@@ -326,6 +331,7 @@ input[type=text] {
     .review:nth-child(odd){
         display:none;
     }
+    
 }
 
 
