@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fredericka+the+Great:wght@400;700&family=Robotor:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Roboto&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
@@ -10,6 +10,7 @@ body {
 }
 .navbar-toggler {
     border: none;
+    box-shadow: none;
 }
 
 .navbar-brand,
@@ -40,7 +41,8 @@ body {
 
 h1 {
     font-size: 4rem;
-    font-weight: 700;
+    /* font-weight: 700; */
+    font-family: 'Bebas Neue', cursive;
 }
 .hero-quote {
     font-size: 1.2rem;
@@ -56,7 +58,7 @@ h1 {
 
 h2 {
     color: #221c1b;
-    font-family: 'Fredericka the Great';
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
     /* text-decoration: underline;
     text-decoration-thickness: 40px; */
@@ -240,10 +242,6 @@ input[type=text] {
 /* END OF FORM STYLES */
 /* CONTACT STYLES */
 
-.contact-info {
-    /* width: 50%; */
-    margin: 0 auto;
-}
 .contact-info>h3 {
     text-align: left;
     padding-left: 3rem;
@@ -316,10 +314,26 @@ input[type=text] {
     .form-input{
         padding: 10px 20px;
     }
+    .contact-info > h3 {
+        padding-left: 1rem;
+        width: 320px;
+    }
+    .social-media {
+        padding-left: 1rem;
+        font-size: 10px;
+    }
+    .info {
+        padding-left: 1rem;
+    }
 
 }
-@media only screen and (max-width: 990px) {
-
+@media only screen and (max-width: 992px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .hero-quote {
+        font-size: 0.8rem;
+    }
     .coffee,
     .cake {
         margin-left: auto;
@@ -331,13 +345,53 @@ input[type=text] {
     .review:nth-child(odd){
         display:none;
     }
+ 
     
 }
 
 
 
-@media (max-width:800px) {
+@media only screen and (max-width:800px) {
     #carouselExampleControls {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px ) {
+    h1 {
+        font-size: 7rem;
+        text-align: center;
+    }
+    .hero-quote {
+        font-size: 0.8rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    .location-img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+        object-fit: cover;
+    }
+    .location h3 {
+        font-size: 1.2rem;
+    }
+    .location p {
+        font-size: 1rem;
+    }
+    .container-reviews {
+        padding-top: 1rem !important;
+    }
+    .contact-info > h3 {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width:475px) {
+    h1 {
+        font-size: 7rem;
+    }
+    .hero-quote {
         display: none;
     }
 }
