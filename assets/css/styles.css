@@ -316,7 +316,7 @@ input[type=text] {
 }
 @media only screen and (max-width: 992px) {
     h1 {
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .hero-quote {
         font-size: 0.8rem;
@@ -350,14 +350,14 @@ input[type=text] {
 
 @media only screen and (max-width:768px ) {
     h1 {
-        font-size: 7rem;
+        font-size: 9rem;
         text-align: center;
     }
     .hero-quote {
         font-size: 0.8rem;
     }
     h2 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
     .location-img {
         width: 150px;
@@ -377,7 +377,7 @@ input[type=text] {
 }
 @media only screen and (max-width:475px) {
     h1 {
-        font-size: 7rem;
+        font-size: 9rem;
     }
     .hero-quote {
         display: none;
