@@ -5,8 +5,28 @@ body {
 
 }
 
+/* general styling */
+h2 {
+    color: #221c1b;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+/* end of generaly styles */
+
 .navbar {
     background-color: #221c1b;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    padding-bottom: 0;
 }
 .navbar-toggler {
     border: none;
@@ -16,6 +36,9 @@ body {
 .navbar-brand,
 .nav-link {
     color: #f0ebdd !important;
+    font-size: 2rem;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .navbar-brand:hover,
@@ -40,8 +63,8 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
-    /* font-weight: 700; */
+    font-size: 7rem;
+    font-weight: 700;
     font-family: 'Bebas Neue', cursive;
 }
 .hero-quote {
@@ -56,16 +79,7 @@ h1 {
     background-color: #f0ebdd;
 }
 
-h2 {
-    color: #221c1b;
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    /* text-decoration: underline;
-    text-decoration-thickness: 40px; */
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 30px;
-}
+
 
 h2~p {
     text-align: center;
@@ -117,10 +131,7 @@ h2~p {
     color: #221c1b;
 }
 
-h3 {
-    font-size: 1.6rem;
-    margin-bottom: 10px;
-}
+
 
 /* menu styles */
 .menu-list {
@@ -157,11 +168,6 @@ h3 {
     letter-spacing: 0.1rem;
 }
 
-h3 {
-    padding: 10px;
-    text-align: center;
-    text-decoration: underline;
-}
 #menu > p {
     text-align: center;
     font-style: italic;
@@ -214,12 +220,16 @@ h3 {
     margin-bottom: 8px; 
 }
 .form-input > h3 {
+    text-align: center;
     text-decoration: none;
     padding: 5px;
     margin-bottom: 0;
 }
 .form-location {
     text-align: left;
+}
+.form-check:last-child {
+    padding-bottom: 1rem;
 }
 label {
     padding-left: 2px;
@@ -233,52 +243,32 @@ input[type=text] {
 }
 .button {
    text-align: center;
+   display: block;
 }
 .btn {
  background-color: #f0ebdd;
  color: #221c1b;
  padding: 4px 8px;
+ border: none;
+ width: 75%;
+ margin: 0 auto;
 }
+
 /* END OF FORM STYLES */
 /* CONTACT STYLES */
-
-.contact-info>h3 {
-    text-align: left;
-    padding-left: 3rem;
-}
 .info {
     padding-top: 1rem;
     padding-left: 3rem;
 }
-
-.email-address:link,
-.email-address:visited {
-    text-decoration: none;
-    color: inherit;
+.info p {
+    font-size: 1.35rem;
+    /* text-align: left; */
 }
-.email-address:hover,
-.email-address:active {
-    text-decoration: underline;
+.info p  i {
+    padding-right: 10px;
 }
-.social-media {
-    /* text-align: center; */
-    margin-bottom: 24px;
-    padding-left: 3rem;
-}
-.social-media a > i {
-
-    font-size: 2rem;
-    color: #221c1b;
-    padding: 5px;
-}
-
-.contact-info {
-    width: 50%;
-    margin: 0 auto;
-}
-.info {
-    padding-top: 1rem;
-    padding-left: 3rem;
+.address {
+    padding-left: 2.1rem;
 }
 .email-address:link,
 .email-address:visited {
@@ -290,16 +280,16 @@ input[type=text] {
     text-decoration: underline;
 }
 .social-media {
-    /* text-align: center; */
-    margin-bottom: 24px;
+    text-align: center;
+    margin-top: 24px;
     padding-left: 3rem;
 }
 .social-media a > i {
-
-    font-size: 40px;
+    font-size: 3rem;
     color: #221c1b;
-    padding: 5px;
+    padding: 1rem;
 }
+
 /* Media queries  */
 
 
@@ -314,10 +304,7 @@ input[type=text] {
     .form-input{
         padding: 10px 20px;
     }
-    .contact-info > h3 {
-        padding-left: 1rem;
-        width: 320px;
-    }
+    
     .social-media {
         padding-left: 1rem;
         font-size: 10px;
@@ -344,6 +331,10 @@ input[type=text] {
     }
     .review:nth-child(odd){
         display:none;
+    }
+ 
+    .form-input > h3{
+        font-size: 1.5rem;
     }
  
     
@@ -382,9 +373,6 @@ input[type=text] {
     }
     .container-reviews {
         padding-top: 1rem !important;
-    }
-    .contact-info > h3 {
-        font-size: 1.2rem;
     }
 }
 @media only screen and (max-width:475px) {
