@@ -6,6 +6,13 @@ body {
 }
 
 /* general styling */
+#home,
+#about,
+#menu,
+#location,
+#contact {
+    scroll-margin-top: 2rem;
+}
 h2 {
     color: #221c1b;
     font-family: 'Bebas Neue', cursive;
@@ -27,6 +34,12 @@ h3 {
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     padding-bottom: 0;
+}
+.flex-container {
+	display: flex;
+}
+.flex-right {
+	justify-content: flex-end;
 }
 .navbar-toggler {
     border: none;
