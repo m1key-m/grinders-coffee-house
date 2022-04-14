@@ -204,7 +204,7 @@ h2~p {
 }
 /* FORM STYLES */
 .form-input {
-    max-width: 80%;
+   
     margin: 0 auto;
     padding: 20px 40px;
     border: 2px solid #221c1b;
@@ -294,6 +294,9 @@ input[type=text] {
 
 
 @media only screen and (max-width: 1200px) {
+    /* h2 {
+     margin-bottom: 1.5rem;
+    } */
     .coffee {
         margin-left: 150px;
     }
