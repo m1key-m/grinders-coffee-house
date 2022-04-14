@@ -362,18 +362,6 @@ input[type=text] {
     h2 {
         font-size: 3.5rem;
     }
-    .location-img {
-        width: 150px;
-        height: 150px;
-        margin-bottom: 10px;
-        object-fit: cover;
-    }
-    .location h3 {
-        font-size: 1.2rem;
-    }
-    .location p {
-        font-size: 1rem;
-    }
     .container-reviews {
         padding-top: 1rem !important;
     }
