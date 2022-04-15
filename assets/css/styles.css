@@ -64,6 +64,10 @@ h3 {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .hero .container {
@@ -141,6 +145,10 @@ h2~p {
 
 .location-link:link,
 .location-link:visited {
+    color: #221c1b;
+}
+.location-link:hover,
+.location-link:active {
     color: #221c1b;
 }
 
@@ -292,17 +300,29 @@ input[type=text] {
 .email-address:active {
     text-decoration: underline;
 }
+
+/* Footer styles */
+.footer-basic {
+    text-align: center;
+}
+.copyright {
+    margin-bottom: 2rem;
+    font-style: italic;
+}
 .social-media {
     text-align: center;
-    margin-top: 24px;
-    padding-left: 3rem;
+   margin-bottom: 0.5rem;
+    
 }
 .social-media a > i {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #221c1b;
     padding: 1rem;
 }
-
+hr {
+    color: #221c1b;
+    border: 2px solid #221c1b;
+}
 /* Media queries  */
 
 
@@ -336,6 +356,9 @@ input[type=text] {
     }
     .hero-quote {
         font-size: 0.8rem;
+    }
+    .navbar-brand {
+        padding-left: 0 !important;
     }
     .coffee,
     .cake {
