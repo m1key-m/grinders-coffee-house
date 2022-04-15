@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Roboto&display=swap');
-
+* {
+    transition: none !important;
+}
 body {
     font-family: Roboto, sans-serif;
 
@@ -58,7 +60,7 @@ h3 {
 .nav-link:hover {
     text-decoration: underline;
 }
-/* Hero section */
+
 .dark-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/extraction.webp");
     background-size: cover;
@@ -115,6 +117,9 @@ h2~p {
 }
 .carousel-inner {
     border-radius: 25px;
+}
+.carousel-item {
+    transition: transform .6s ease-in-out !important;
 }
 /* end of about section styles */
 /* location section styles  */
@@ -271,9 +276,17 @@ input[type=text] {
  color: #221c1b;
  padding: 4px 8px;
  border: none;
- width: 75%;
+ width: 100%;
  margin: 0 auto;
  margin-bottom: 1rem;
+}
+.form-check-input:checked {
+    background-color: black;
+    border: 5px solid black !important;
+}
+.form-check-input {
+    background-color: black;
+    border: 5px solid white !important;
 }
 
 /* END OF FORM STYLES */
@@ -381,11 +394,16 @@ hr {
     .vegan {
         padding-bottom: 2rem;
     }
- 
+
     
 }
 
 
+@media only screen and (min-width: 992px){
+    .nav-link {
+        transition: none !important;
+    }
+}
 
 @media only screen and (max-width:800px) {
     #carouselExampleControls {
@@ -415,6 +433,11 @@ hr {
     }
     .hero-quote {
         display: none;
+    }
+    .about-text {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 1rem;
     }
     
 }
