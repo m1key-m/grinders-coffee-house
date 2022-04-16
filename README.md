@@ -1,6 +1,6 @@
 # Grinders Coffee House
 
-[View the live project here.](https://m1key-m.github.io/grinders-coffee-house/){target="_blank"} 
+[View the live project here.](https://m1key-m.github.io/grinders-coffee-house/) {target="_blank"} 
 
 This is the main marketing website for Grinders Coffee House, an indepentant coffee chain located in the south of England and Cardiff. The website should give users information about the company, its location and products, feedback from existing customers, and ways to contact/connect with the company. 
 Also, the website should be responsive and accessible on a range of devices, making it easy to navigate for new and existing customers.
