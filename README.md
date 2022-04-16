@@ -1,108 +1,194 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+	<h1 align="center">Grinders Coffee House</h1>
 
-Welcome Mikey,
+[View the live project here.](https://m1key-m.github.io/grinders-coffee-house/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the main marketing website for Grinders Coffee House, an indepentant coffee chain located in the south of England and Cardiff. The website should give users information about the company, its location and products, feedback from existing customers, and ways to contact/connect with the company. 
+Also, the website should be responsive and accessible on a range of devices, making it easy to navigate for new and existing customers.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
-## Gitpod Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+-   ### User stories
 
-`python3 -m http.server`
+- ###As a first-time visitor, I want to...**
 
-A blue button should appear to click: _Make Public_,
+    1. Understand the company’s main purpose and find out more about the company’s service offer.
+    2. Navigate easily within the site to find relevant content.
+    3. Read customer reviews to understand what other customers think of the company and see if they are trusted.
+    4. Find the company’s contact details, including social media links, and be able to contact the company easily.
 
-Another blue button should appear to click: _Open Browser_.
+- ###As a returning/frequent visitor, I want to...**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    1. Find the best way to contact the company with any questions I might have.
+    2. Find the social media links so that I can join and interact with other customers.
+    3. Keep up to date with any menu changes or new locations opening.
 
-A blue button should appear to click: _Make Public_,
+-   ### Design
+    -   #### Colour Scheme
+        -   There are 3 main colors used through out, plain white, an off-white color (#f0ebdd) and a dark brown (#221c1b). I chose a very simple color scheme that was representative of colors associated with coffee. I also chose to keep the color scheme simple to keep everything looking uniform and connected. In doing this it also benefitted accessibilty as the color contrast through out is consistent and all contrast checks passed. There are a few other decorative colors used in the project but none of those had an affect on the contrast score. I have included a color grid to record the scores.
 
-Another blue button should appear to click: _Open Browser_.
+[Check the constrast grid here](https://github.com/m1key-m/grinders-coffee-house/blob/main/assets/images/color-contrast.png)
+    -   #### Typography
+        -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Robot is a clean font used frequently in programming, so it is both attractive and appropriate. I opted to use the 'Bebas Nue' font for the main headings as it stood out more to me and added a good break from the body font-family, the back up is cursive' and I also used the font-family 'Fredericka the Great' for the menu section as the font resembles the look of chalk which is the look I was aiming for. 
+    -   #### Imagery
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic and is perfectly linked to the aim of the website. 
+All other images used throughout the the website are intricately linked to the purpose of the design. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*   ### Wireframes
 
-To log into the Heroku toolbelt CLI:
+    -   Home Page Wireframe - [View](https://github.com/m1key-m/grinders-coffee-house/blob/main/wireframes/desktop.pdf)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    -   Mobile Wireframe - [View](https://github.com/m1key-m/grinders-coffee-house/blob/main/wireframes/tablet.pdf)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    -   Contact Us Page Wireframe - [View](https://github.com/m1key-m/grinders-coffee-house/blob/main/wireframes/desktop.pdf)
 
-------
+    - The final design deviates from the wireframes in some sections quite drastically as during the process of building I felt more compelled to move some sections around as when building, it didn't look as appealing as it did 
+in my mind. For example, the gallery in the about section has been replaced with a carousel and placed under the text. Also the location section moved more towards the end of the page as it made more sense that way - which was also a much better place to add the reviews. 
+## Features
 
-## Release History
+-   Responsive on all device sizes
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+-   Interactive elements
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Technologies Used
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Languages Used
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Frameworks, Libraries & Programs Used
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+1. [Bootstrap 5.0:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Roboto' 'Fredericka the Great' and 'Bebas Neu' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
+1. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/m1key-m/grinders-coffee-house/blob/main/assets/images/css-validation.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/m1key-m/grinders-coffee-house/blob/main/assets/images/html-validation.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Testing User Stories from User Experience (UX) Section
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-   #### First Time Visitor Goals
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with a H1 heading and a tag line. 
+        2. The main points are made immediately with the hero image
+        3. The user has can then easily scroll through the website or use the links to navigate to the sections throughout. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of the page there is a clean navigation bar that will help the user move to the relevant section.
+        2. The main navigation is fixed to the top of the page to ensure the user can always nagivigate back to the top or to another section
+       
 
-------
+    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine 	how trusted and known they are.
+        1. When the user moves to the locations section they are presented with reviews from customers
+        2. The user can also scroll to the bottom of the page the to locate social media links in the footer.
+        3. At the bottom of the page is relevant information for the user to contact us, alternatively they can contact the organisation on social media which highlights the links to them.
 
-## FAQ about the uptime script
+-   #### Returning Visitor Goals
 
-**Why have you added this script?**
+    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+        1. These are clearly shown in the banner message.
+        2. They will be directed to a page with another hero image and call to action.
 
-**How will this affect me?**
+    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+        1. The navigation bar clearly highlights the "Contact Us" Page.
+	2. At the bottom of the page they will find all relevant information to get in contact with the organisation.
+        3. The footer contains links to the organisations Facebook, Twitter and Instagram page.
+        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+       
+      
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+-   #### Frequent User Goals
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+    1. As a Frequent User, I want to check to see if there are any new locations opened or updates to the menu.
 
-**So….?**
+        1. The user would already be comfortable with the website layout and can easily find the relevant information in the Locations/Menu section 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+    2. As a Frequent User, I want to sign up to become loyalty member. 
 
-**Can I opt out?**
+        1. The user would already be comfortable with the website layout and can easily find the form to register for the loyalty scheme.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+    3. As a Frequent User, I want to sign up to contact customer service to give feedback on my visits.
+        	1. The user can easily navigate to the contact section to find the details of how to email or telephone.
+		2. The user can easily navigate to the footer to access the Social Media links to contact the organisation.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Further Testing
 
-**Anything more?**
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge 
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Known Bugs
 
----
+-   On the iPhone 11 the hero image and text doesn't always respond as required but it does on all other devices.(The Hero image doesn't display and the font-size is too big)
 
-Happy coding!
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+
+## Credits
+
+### Code
+
+-   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+### Content
+
+-   All content was written by the developer.
+
+-   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+
+### Media
+
+-   All Images were created by the developer.
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.
