@@ -15,6 +15,8 @@ body {
 #contact {
     scroll-margin-top: 2rem;
     color: #221c1b;
+}
+h2 {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 4rem;
