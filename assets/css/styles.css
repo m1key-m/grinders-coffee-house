@@ -378,7 +378,7 @@ hr {
 }
 
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
     h1 {
         font-size: 10rem;
         text-align: center;
@@ -401,10 +401,21 @@ hr {
     .review:nth-child(odd){
         display:none;
     }
- 
+    .form-input {
+        width: 80%;
+        margin-bottom: 5rem;
+    }
     .form-input > h3{
         font-size: 1.5rem;
+    } 
+    .contact-details {
+        margin-bottom: 1.5rem;
     }
+    .contact-details,
+    .map {
+        margin-right: 0 !important;
+    }
+
     .vegan {
         padding-bottom: 2rem;
     }
