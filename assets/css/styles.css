@@ -402,8 +402,8 @@ hr {
         display:none;
     }
     .form-input {
-        width: 80%;
-        margin-bottom: 5rem;
+        width: 90%;
+        margin-bottom: 3rem;
     }
     .form-input > h3{
         font-size: 1.5rem;
@@ -455,7 +455,15 @@ hr {
         padding-right: 2rem;
         font-size: 1rem;
     }
-    
+    .copyright {
+        font-size: 0.9rem;
+    }
+    .disclaimer {
+        font-size: 0.8rem;
+    }
+    .disclaimer small {
+        padding: 0 6px;
+    }
 }
 @media only screen and (max-width:405px) {
     h1 {
@@ -468,16 +476,24 @@ hr {
     .hero-quote {
         display: none;
     }
+    .location-img {
+        width: 10rem;
+        height: 10rem;
+    }
+    .vegan {
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        font-style: italic;
+    }
 }
 @media only screen and (max-width:330px) {
 
   .navbar-brand {
-      font-size: 1.8rem;
+      font-size: 1.4rem;
   }
-.vegan {
-    font-size: 1rem;
-    padding-bottom: 1rem;
-    text-align: center;
-    font-style: italic;
-}
+  .contact-info {
+      font-size: 0.8rem;
+  }
+
 }
