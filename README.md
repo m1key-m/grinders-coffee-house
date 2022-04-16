@@ -1,12 +1,11 @@
-	<h1 align="center">Grinders Coffee House</h1>
+
 
 [View the live project here.](https://m1key-m.github.io/grinders-coffee-house/)
 
 This is the main marketing website for Grinders Coffee House, an indepentant coffee chain located in the south of England and Cardiff. The website should give users information about the company, its location and products, feedback from existing customers, and ways to contact/connect with the company. 
 Also, the website should be responsive and accessible on a range of devices, making it easy to navigate for new and existing customers.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
-
+![Responsiveness screenshot](assets/img/responsive.png)
 ## User Experience (UX)
 
 -   ### User stories
@@ -28,20 +27,20 @@ Also, the website should be responsive and accessible on a range of devices, mak
     -   #### Colour Scheme
         -   There are 3 main colors used through out, plain white, an off-white color (#f0ebdd) and a dark brown (#221c1b). I chose a very simple color scheme that was representative of colors associated with coffee. I also chose to keep the color scheme simple to keep everything looking uniform and connected. In doing this it also benefitted accessibilty as the color contrast through out is consistent and all contrast checks passed. There are a few other decorative colors used in the project but none of those had an affect on the contrast score. I have included a color grid to record the scores.
 
-[Check the constrast grid here](https://github.com/m1key-m/grinders-coffee-house/blob/main/assets/images/color-contrast.png)
-    -   #### Typography
-        -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Robot is a clean font used frequently in programming, so it is both attractive and appropriate. I opted to use the 'Bebas Nue' font for the main headings as it stood out more to me and added a good break from the body font-family, the back up is cursive' and I also used the font-family 'Fredericka the Great' for the menu section as the font resembles the look of chalk which is the look I was aiming for. 
+[Check the constrast grid here](assets/images/color-contrast.png)
+    #### Typography
+    -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into   the site correctly. Robot is a clean font used frequently in programming, so it is both attractive and appropriate. I opted to use the 'Bebas Nue' font for the main headings as it stood out more to me and added a good break from the body font-family, the back up is cursive' and I also used the font-family 'Fredericka the Great' for the menu section as the font resembles the look of chalk which is the look I was aiming for. 
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic and is perfectly linked to the aim of the website. 
-All other images used throughout the the website are intricately linked to the purpose of the design. 
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic and is  perfectly linked to the aim of the website. 
+        All other images used throughout the the website are intricately linked to the purpose of the design. 
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/m1key-m/grinders-coffee-house/blob/main/wireframes/desktop.pdf)
+    -   Home Page Wireframe - [View](wireframes/desktop.pdf)
 
-    -   Mobile Wireframe - [View](https://github.com/m1key-m/grinders-coffee-house/blob/main/wireframes/tablet.pdf)
+    -   Mobile Wireframe - [View](wireframes/tablet.pdf)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/m1key-m/grinders-coffee-house/blob/main/wireframes/desktop.pdf)
+    -   Contact Us Page Wireframe - [View](wireframes/mobile.pdf)
 
     - The final design deviates from the wireframes in some sections quite drastically as during the process of building I felt more compelled to move some sections around as when building, it didn't look as appealing as it did 
 in my mind. For example, the gallery in the about section has been replaced with a carousel and placed under the text. Also the location section moved more towards the end of the page as it made more sense that way - which was also a much better place to add the reviews. 
