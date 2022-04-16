@@ -291,19 +291,29 @@ input[type=text] {
 
 /* END OF FORM STYLES */
 /* CONTACT STYLES */
-.info {
-    padding-top: 1rem;
-    padding-left: 3rem;
+.contact-details{
+    display: flex;
+    justify-content: space-around;
 }
-.info p {
-    font-size: 1.35rem;
-    /* text-align: left; */
+.contact-icon {
+    text-align: center;
+    font-size: 2rem;
 }
-.info p  i {
-    padding-right: 10px;
+.contact-info {
+    text-align: center;
+    font-size: 1.2rem;
 }
-.address {
-    padding-left: 2.1rem;
+iframe {
+    margin-bottom: 2rem;
+    align-self: center;
+}
+.map {
+    display: flex;
+    justify-content: center;
+}
+.contact-details,
+.map {
+    margin-right: 6rem !important;
 }
 .email-address:link,
 .email-address:visited {
@@ -359,12 +369,16 @@ hr {
         padding-left: 1rem;
         font-size: 10px;
     }
-    .info {
-        padding-left: 1rem;
+    .contact-info {
+        font-size: 0.9rem;
     }
+    .contact-details,
+.map {
+    margin-right: 2rem !important;
+}
 
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
     h1 {
         font-size: 10rem;
         text-align: center;
@@ -393,15 +407,6 @@ hr {
     }
     .vegan {
         padding-bottom: 2rem;
-    }
-
-    
-}
-
-
-@media only screen and (min-width: 992px){
-    .nav-link {
-        transition: none !important;
     }
 }
 
