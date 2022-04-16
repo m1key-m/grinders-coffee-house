@@ -65,11 +65,10 @@ h3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/extraction.webp");
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
+    /* background-attachment: fixed; */
+     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
 }
 
 .hero .container {
