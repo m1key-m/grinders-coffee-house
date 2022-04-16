@@ -213,7 +213,7 @@ h2~p {
 }
 .fas,
 .far {
-    color: green;
+    color: #008000;
 }
 .review:nth-child(1) {
     margin-bottom: 10px
