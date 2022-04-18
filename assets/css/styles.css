@@ -15,6 +15,7 @@ body {
 #contact {
     scroll-margin-top: 2rem;
     color: #221c1b;
+
 }
 h2 {
     font-family: 'Bebas Neue', cursive;
@@ -128,6 +129,10 @@ h2~p {
 
 
 /* MENU STYLES */
+#menu {
+    background-color: white;
+    
+}
 .menu-list {
     background-color: #000;
     border: 20px solid #553311;
@@ -165,6 +170,7 @@ h2~p {
 
 .vegan {
     padding-bottom: 48px;
+    margin-bottom: 0;
     text-align: center;
     font-style: italic;
 }
@@ -240,6 +246,9 @@ h2~p {
 
 
 /* CONTACT STYLES */
+#contact {
+    background-color: white;
+}
 .contact-details{
     display: flex;
     justify-content: space-around;
@@ -341,6 +350,10 @@ input[type=text] {
 
 
 /* FOOTER STYLES */
+#footer {
+    background-color: white;
+    margin-bottom: 0;
+}
 .footer-basic {
     text-align: center;
 }
@@ -361,6 +374,10 @@ input[type=text] {
 hr {
     color: #221c1b;
     border: 2px solid #221c1b;
+    margin-bottom: 0;
+}
+.disclaimer {
+    margin-bottom: 0em;
 }
 
 /* END OF FOOTER STYLES */
@@ -438,6 +455,7 @@ hr {
     .vegan {
         padding-bottom: 2rem;
     }
+    
 }
 
 @media only screen and (max-width:800px) {
