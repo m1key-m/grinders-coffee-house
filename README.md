@@ -115,10 +115,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    1. As a Returning Visitor, I want to be able to sign up for the loyalty scheme
 
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
+        1. The user will be able to navigate to the Contact Section to sign up for loyalty scheme
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
@@ -145,15 +144,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge 
+-   The Website was tested on Google Chrome, Safari, Microsoft Edge and Firefox 
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On the iPhone 11 the hero image and text doesn't always respond as required but it does on all other devices (The Hero image doesn't display and the font-size is too big).
-
+-   There were some issues with the 'background-attachment:fixed' property with i0S devices but these were mitigated by changing the way in which the background property was applied
+and this now work on all iPhone devices that were used to test it.
 ## Deployment
 
 ### GitHub Pages
@@ -217,4 +216,4 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 -   My Mentor for continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
+
