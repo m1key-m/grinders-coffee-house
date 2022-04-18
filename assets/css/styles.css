@@ -65,17 +65,14 @@ h3 {
 
 /* HERO SECTION STYLES */
 .dark-bg {
+    position:fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/extraction.webp");
-    background-size: cover;
     background-position: center center;
-
-    /* Not compatible with iOS and may be causing iphone responsiveness issues - need to check this out */
-    background-attachment: fixed;  
-         -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-backgrround-size: cover;
 }
-
 .hero .container {
     height: 100vh;
 }
