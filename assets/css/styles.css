@@ -493,7 +493,7 @@ hr {
 }
 @media only screen and (max-width: 414px) {
     h1 {
-        font-size: 8rem;
+        font-size: 7rem;
     }
 }
 @media only screen and (max-width:405px) {
