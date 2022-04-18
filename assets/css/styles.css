@@ -70,7 +70,7 @@ h3 {
     background-position: center center;
 
     /* Not compatible with iOS and may be causing iphone responsiveness issues - need to check this out */
-    /* background-attachment: fixed;  */ 
+    background-attachment: fixed;  
          -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
