@@ -491,9 +491,9 @@ hr {
         padding: 0 6px;
     }
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 420px) {
     h1 {
-        font-size: 7rem;
+        font-size: 6rem;
     }
 }
 @media only screen and (max-width:405px) {
