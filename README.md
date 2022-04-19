@@ -153,6 +153,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   There were some issues with the 'background-attachment:fixed' property with i0S devices but these were mitigated by changing the way in which the background property was applied
 and this now work on all iPhone devices that were used to test it.
+-   There are some issues with a very small subset of older iPhone models when viewed in landscape the hero image doesn't repsond very well.
 ## Deployment
 
 ### GitHub Pages
