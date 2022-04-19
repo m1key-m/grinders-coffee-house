@@ -5,7 +5,7 @@
 This is the main marketing website for Grinders Coffee House, an indepentant coffee chain located in the south of England and Cardiff. The website should give users information about the company, its location and products, feedback from existing customers, and ways to contact/connect with the company. 
 Also, the website should be responsive and accessible on a range of devices, making it easy to navigate for new and existing customers.
 
-![Responsiveness screenshot](assets/images/responsive.png)
+![Responsiveness screenshot](testing/testing-images/responsive.png)
 
 
 ## Contents
@@ -36,7 +36,7 @@ Also, the website should be responsive and accessible on a range of devices, mak
 
 -   ### Design
     -   #### Colour Scheme
-        -   There are 3 main colors used through out, plain white, an off-white color (#f0ebdd) and a dark brown (#221c1b). I chose a very simple color scheme that was representative of colors associated with coffee. I also chose to keep the color scheme simple to keep everything looking uniform and connected. In doing this it also benefitted accessibilty as the color contrast through out is consistent and all contrast checks passed. There are a few other decorative colors used in the project but none of those had an affect on the contrast score. I have included a color grid to record the scores. [Check the constrast grid here](assets/images/color-contrast.png)
+        -   There are 3 main colors used through out, plain white, an off-white color (#f0ebdd) and a dark brown (#221c1b). I chose a very simple color scheme that was representative of colors associated with coffee. I also chose to keep the color scheme simple to keep everything looking uniform and connected. In doing this it also benefitted accessibilty as the color contrast through out is consistent and all contrast checks passed. There are a few other decorative colors used in the project but none of those had an affect on the contrast score. I have included a color grid to record the scores. [Check the constrast grid here](/testing/testing-images/color-contrast.png)
 
 
     #### Typography
