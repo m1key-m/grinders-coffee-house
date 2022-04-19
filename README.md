@@ -85,8 +85,8 @@ Also, the website should be responsive and accessible on a range of devices, mak
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
-
-
+## Testing 
+-   All relevant information pertaining to testing can be found here [testing.md](testing/testing.md)
 ## Deployment
 
 ### GitHub Pages
